@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="cssdosyalar/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="movies.html">Filmler</a>
+        <a href="imdb.html">IMDB Top 100</a>
+        <a class="active" href="contact.html"><i class="material-icons" style="font-size: 13px;">contacts</i> İletişim</a>
+    </div>
+
+    <p style="text-align: center;font-size: 50px;font-family: Lucida Console, Courier New;">
+        <u>İletişim Formu</u>
+    </p>
+
+    <div class="container">
+        <label for="fname">Adınız</label>
+        <input type="text" id="fname" name="firstname" placeholder="Adınız...">
+
+        <label for="lname">Soyadınız</label>
+        <input type="text" id="lname" name="lastname" placeholder="Soyadınız...">
+
+        <label for="country">Ülke</label>
+        <select id="country" name="country">
+            <option value="turkiye">Türkiye</option>
+            <option value="hollanda">Hollanda</option>
+            <option value="isvec">İsveç</option>
+            <option value="finlandiya">Finlandiya</option>
+            <option value="avustralya">Avustralya</option>
+            <option value="kanada">Kanada</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Konu</label>
+        <textarea id="subject" name="subject" placeholder="Bir şey yazınız..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </div>
+    <hr>
+    <div class="footer">
+        <p>Bu Site Beyza Kevser Parlağa aittir.</p>
+    </div>
+</body>
+</html>
